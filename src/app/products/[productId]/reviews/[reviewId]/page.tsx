@@ -1,3 +1,5 @@
+import {notFound} from "next/navigation";
+
 export default function Review({
   params,
 }: {
@@ -6,11 +8,12 @@ export default function Review({
     reviewId: string;
   };
 }) {
+  if (parseInt(params.reviewId) > 10) {
+    notFound();
+  }
   return (
-    <div>
-      <h1>
-        Review {params.reviewId} for Product {params.productId}
-      </h1>
-    </div>
+    <h1>
+      Review {params.reviewId} for Product {params.productId}
+    </h1>
   );
 }
