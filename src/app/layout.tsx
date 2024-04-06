@@ -18,7 +18,7 @@ export default function RootLayout({
             height: "5rem",
           }}
         >
-          Header``
+          Header
         </p>
         <div style={{ padding: "1rem", border: "1px solid black" }}>
           {children}
