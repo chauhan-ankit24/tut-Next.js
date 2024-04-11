@@ -1,5 +1,5 @@
 import Card from "../../../components/card";
 
 export default function DefaultRevenue() {
-  return <Card> Revenue Page</Card>;
+  return <Card>Default Revenue</Card>;
 }

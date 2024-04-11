@@ -1,5 +1,5 @@
 import Card from "../../components/card";
 
 export default function DefaultComplexDashboard() {
-  return <Card>Complex Dashboard Page</Card>;
+  return <h2> Default Complex Dashboard Page</h2>;
 }
